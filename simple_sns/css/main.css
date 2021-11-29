@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgb(235, 246, 250);
+}
+
+div.header {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    background-color: #3078be;
+    padding: 10px 0px;
+}
+
+div.main {
+    padding: 80px 100px 30px;
+}
+
+div.post,
+div.logout,
+div.setting {
+    float: right;
+    margin: 5px;
+}
+
+a.title{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+}
+
+a.post,
+a.logout,
+a.setting {
+    color: white;
+    width: auto;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+a.post:hover,
+a.logout:hover,
+a.setting:hover {
+    color: #3078be;
+    background-color: white;
+}
+
+div.item {
+    color: #333;
+    font-size: 16px;
+}
+
+div.error {
+    display: block;
+    color: #ee3333;
+    font-size: 12px;
+}
+
+div.title {
+    width: 100%;
+    color: #333;
+    font-size: 26px;
+    border-left: 3px solid #3078be;
+    border-bottom: 1px solid #3078be;
+    padding: 0px 10px;
+}
+
+div.home {
+    float: right;
+    margin: 5px;
+}
+
+a.home {
+    color: white;
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a.home:hover {
+    color: #3078be;
+    background-color: white;
+}
+
+div.footer{
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+p.footer {
+    font-size: 0.75em;
+    text-align: center;
+}

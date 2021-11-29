@@ -1,0 +1,35 @@
+div#posted_box {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+div#name {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #3078be;
+}
+
+div#date {
+    display: inline;
+    font-size: 0.5em;
+    color: rgb(79, 84, 99);
+}
+
+div#maintext {
+    display: block;
+    font-size: 1em;
+}
+
+div#id {
+    font-size: 0.5em;
+    color: #3078be;
+    display: inline;
+    border: 1px solid #3078be;
+    border-radius: 10px;
+    padding: 0 5px;
+}
